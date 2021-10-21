@@ -2,9 +2,17 @@ import { Experience } from 'models/interfaces';
 
 export const experiences: Experience[] = [
   {
+    company: 'Itaú Unibanco',
+    jobTitle: 'Backend Software Engineer',
+    startDate: 'Sep/21',
+    description: 'Development .NET Core, and .NET Framework',
+    techs: [{ title: '.NET' }, { title: 'AWS' }, { title: 'SQLServer' }],
+  },
+  {
     company: 'Medicine Innovation Lab - MedSênior',
     jobTitle: 'Full-Stack Developer',
     startDate: 'Sep/20',
+    endDate: 'Sep/21',
     description: 'Development in React.js, .NET, and React Native.',
     techs: [
       { title: 'React.js' },
